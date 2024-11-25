@@ -1,6 +1,7 @@
 # ComputerModeling2024
 ## Preparing Source Code and Build Project
 
+### Preparing Source Code
 ```bash
 sudo apt update
 sudo apt upgrade
@@ -10,6 +11,7 @@ git clone https://github.com/rubis-lab/ComputerModeling2024.git
 cd ComputerModeling2024
 ```
 
+### Build Project
 ```bash
 sudo apt install build-essential cmake openjdk-17-jdk
 ```
@@ -32,7 +34,7 @@ export CPSIM_PATH=/home/<username>/ComputerModeling2024
 # CONNECTION ERROR, YOU MUST CONNECT WITH TORCS IN 5 SECONDS
 ```
 
-## Install Eclipse SDK
+## Preparing Eclipse SDK
 
 Download from the link below
 
@@ -48,11 +50,12 @@ cd eclipse
 ```
 
 - create new workspace → Click Launch
+- Install softwares(gmf-runtime, graphiti)
 - Run→Run Configurations→Environments
-    - ADD→ CPSIM_PATH, path-to-cpsim (”/home/<username>/ComputerModeling2024”)
+    - ADD→ CPSIM_PATH, path-to-cpsim (”/home/\<username>/ComputerModeling2024”)
 - Disable IPv6 and Wi-Fi in both machines
 
-- Launch Application → Design, create
+- Launch Application → Design, New Project
 
 - Connect two machines
 - Set Static IP of Windows machine as 192.168.0.100
